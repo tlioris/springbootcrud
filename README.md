@@ -10,7 +10,7 @@ I don't know vue, but as far as I have seen I managed to configure it.
 
 To deploy the backend server:
 
-1. insert < packaging >jar/</packaging/> at every pom.xml of every module 
+1. insert < packaging > jar </ packaging > at every pom.xml of every module 
 2. execute a maven clean package run for springbootcrud-domain project. This will produce a new jar file, located at spring-boot-crud project in the end folder of folder sequence springbootcrud-domain/target ...
 3. this new jar file should be included as a dependency in the springbootcrud-service project. Since you are using some UI (Eclipse, Netbeans, IntelliJ) this should be a trivial task. 
 4. execute a maven clean package run for springbootcrud-service project. This should create a new jar file, located at spring-boot-crud project (as of step 2).
