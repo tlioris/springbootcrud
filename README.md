@@ -8,13 +8,6 @@ I have installed openAPI 3 (and swagger2) to cover the documentation requirement
 
 I don't know vue, but as far as I have seen I managed to configure it.
 
-To deploy the backend server:
+Generally, in order to deploy a multi-module project, according to the literature, one must create a jar file on the parent project. In the given project, however, I could not make a jar file, maybe due to the old JAVA version. 
 
-1. insert < packaging > jar </ packaging > at every pom.xml of every module 
-2. execute a maven clean package run for springbootcrud-domain project. This will produce a new jar file, located at spring-boot-crud project in the end folder of folder sequence springbootcrud-domain/target ...
-3. this new jar file should be included as a dependency in the springbootcrud-service project. Since you are using some UI (Eclipse, Netbeans, IntelliJ) this should be a trivial task. 
-4. execute a maven clean package run for springbootcrud-service project. This should create a new jar file, located at spring-boot-crud project (as of step 2).
-5. The new jar file holds all the dependencies of the final webapp. Therefore it should be added to the webapp dependencies.
-6. finally make the last jar!
-
-To execute the backend server: java -jar final_file.jar
+To execute a jar file from prompt: java -jar final_file.jar
