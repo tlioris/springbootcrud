@@ -1,0 +1,2 @@
+insert into supplier (address, city, companyName, country, firstName, irsOffice, lastName, vatNumber, zipCode) values ("Panos 34", "Tripoli", "LiorisComp", "Greece", "Theodoros", "DOY Tripoli", "Lioris", "069601182", "22100");
+insert into supplier (address, city, companyName, country, firstName, irsOffice, lastName, vatNumber, zipCode) values ("Mironos 11", "Korinthos", "Nike", "Greece", "Kostas", "DOY Korinthos", "Kostidis", "099901182", "21100");
